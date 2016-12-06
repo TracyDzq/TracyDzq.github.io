@@ -1,0 +1,122 @@
+/*经典箱包区域*/
+.bags-title .bags-more{
+	width: 140px;
+}
+.bags-title .bags-more a{
+	font-size: 18px;
+	line-height: 60px;
+	color: #000;
+}
+.bags-title .bags-more a:hover{
+	color: #c69c6d;
+}
+.bags-title .bags-more .bags-bg{
+	width: 18px;
+	height: 60px;
+	background: url(../img/share02.png);
+	background-position: -471px -362px;
+}
+
+.bags-box .bags-wrapper{
+	width: 220px;
+	height: 366px;
+	padding: 4px 9px 0;
+	border: 1px solid #ccc;
+}
+.bags-box .bags-wrapper .bags-name{
+	width: 100%;
+	height: 180px;
+	padding-bottom: 16px;
+	border-bottom: 1px dashed #ccc;
+}
+.bags-box .bags-wrapper .bags{
+	float: left;
+	width: 110px;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.bags-box .bags-wrapper .bags a{
+	color: #666;
+}
+.bags-box .bags-wrapper .bags a:hover{
+	color: #c69c6d;
+}
+.bags-box .bags-banner{
+	margin-top: 14px;
+	width: 220px;
+	height: 150px;	
+	overflow: hidden;
+	position: relative;
+}
+.bags-box .bags-banner .bagsImg-wrapper{
+	width: 500%;
+}
+.bags-box .bags-banner .bagsImg-wrapper li{
+	float: left;
+	width: 224px;
+	height: 114px;	
+}
+.bags-box .bags-banner .bagsImg-wrapper li img{
+	width: 90px;
+	height: 45px;
+	margin: 0 2px 12px 12px;	
+}
+.bags-box .bags-banner .bags-arr{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "宋体";
+	bottom: 12px;	 
+	cursor: pointer;
+}
+.bags-box .bags-banner .bags-arrowL{
+	left: 75px;
+}
+.bags-box .bags-banner .bags-arrowR{
+	right: 60px;
+}
+.bags-box .bags-banner .bags-circle{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	height: 14px;
+	text-align:center;
+}
+.bags-box .bags-banner .bags-circleW {
+	display: inline-block;
+	height: 9px;
+}
+.bags-box .bags-banner .bags-circleW .circle-item{
+	float: left;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	margin: 0 4px;
+	background-color: #666;
+	cursor: pointer;
+}
+.bags-box .bags-banner .bags-circleW .circle-item.active {
+	background-color: #c69c6d;
+}
+.bags-box .bags-show{
+	width: 970px;
+}
+.bags-box .bags-show .bags-item{
+	float: left;
+	margin: 0 0 7px 7px;
+	width: 275px;
+	height: 180px;
+	border: 1px solid #ccc;
+}
+.bags-box .bags-show .bags-item.bags-left{
+	width: 390px;
+	height: 370px;
+	border: 1px solid #ccc;
+}
+.bags-box .bags-show .bags-item img{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,87 @@
+#footer{	
+	margin-top: 50px;
+	border-top: 1px solid #ccc;	
+}
+#footer .foot-service{
+	height: 600px;
+	background: url(../img/footer_message_bg.jpg) bottom no-repeat;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+
+.foot-top {
+	width: 100%;
+	padding-left: 10px;
+	height: 116px;
+	border-bottom: 1px solid #ccc;
+}
+.foot-top .foot-mes .mes-item{
+	margin-top: 26px;
+	float: left;
+	width: 242px;
+	height: 64px;
+	line-height: 24px;
+}
+.foot-top .foot-mes .mes-item p{
+	margin-top: 10px;
+	font-weight: 700;
+	color: #000;
+}
+.foot-top .foot-mes .mes-item .mes-info{
+	margin-left: 5px;
+}
+.foot-top .foot-mes .mes-item .mes-info a:hover{
+	text-decoration: underline;
+}
+.foot-mid {
+	height: 283px;
+	padding-left: 20px;
+}
+.foot-mid li{
+	float: left;
+	width: 185px;
+}
+.foot-mid li.spe-img{
+	float: left;
+	width: 132px;
+}
+.foot-mid li h5{
+	font: 700 12px/64px "微软雅黑";
+	color: #000;
+}
+.foot-mid li span{
+	display: block;
+	line-height: 24px;
+}
+.foot-mid li span a{	
+	color: #333;
+}
+.foot-bot{
+	text-align: center;
+}
+.foot-bot span{
+	margin: 0 5px;
+}
+.foot-bot p,
+.foot-bot a,
+.foot-bot span{
+	color: #fff;
+}
+.foot-bot .bot-t{
+	height: 66px;
+	line-height: 66px;
+}
+.foot-bot .bot-m{
+	line-height: 24px;
+}
+.foot-bot .bot-pic{
+	margin-top: 23px;
+}
+
+.pic-gif{
+	height: 12px;
+}
+.pic-gif img{
+	float: left;
+}
