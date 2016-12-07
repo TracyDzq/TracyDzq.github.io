@@ -2,14 +2,15 @@
 	"10001": {
 		"goods-id": 10001,
 		"goods-name": "VERSACE COLLECTION 范思哲 男士黑色牛皮休闲鞋 2016秋冬新款 V900585 VM00011 V000C",
-		"goods-price": 4699.00,
-		"goods-sale": 7500.00,
+		"goods-price": 7500.00,
+		"goods-sale": 4699.00,
 		"size": {
 			"1000101": 39,
 			"1000102": 40
 		},
 		"color": {
 			"id": "10001001"
-		}
+		},
+		"stock": 10
 	}
 }

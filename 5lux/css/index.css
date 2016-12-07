@@ -1,3 +1,6 @@
+#header{
+	height: 260px;
+}
 #bg{
 	position: absolute;
 	background: url(../img/darwin_mask_bg.png);
@@ -62,6 +65,9 @@
 }
 
 /*主体部分*/
+#main{
+	padding-bottom: 50px;
+}
 #main .brand-title{
 	width: 100%;
 	margin: 40px 0 28px 0;

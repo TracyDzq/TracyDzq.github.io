@@ -1,0 +1,196 @@
+#header{
+	height: 260px;
+}
+#bg{
+	position: absolute;
+	background: url(../img/darwin_mask_bg.png);
+	width: 100%;
+	height: 1000%;
+	z-index: 80;
+	display: none;
+}
+
+/*购物车界面*/
+.cart-top{
+	margin: 32px 0;
+}
+.cart-main {
+	padding: 10px;
+	background-color: #fff;
+}
+.cart-main li.td {
+	float: left;
+	width: 120px;
+}
+.cart-main li.td-checkbox {
+	width: 76px;
+	padding-left: 12px;
+}
+.cart-main li.td-gname {
+	width: 316px;
+}
+.cart-main li.td-gstyle {
+	width: 106px;
+}
+.cart-main li.td-gprice {
+	width: 163px;
+}
+.cart-main li.td-gamount {
+	width: 118px
+}
+.cart-main li.td-gactivity {
+	width: 158px
+}
+.cart-main li.td-gmoney {
+	width: 168px;
+}
+.cart-main li.td-option {
+	width: 73px;
+}
+
+
+/*cart-title*/
+.cart-main .cart-main-title {
+	font-size: 14px;
+	color: #000;
+	line-height: 40px;
+	background-color: #ebeaea;
+}
+
+.cart-main .cart-main-title .td-checkbox input {
+	vertical-align: -2px;
+}
+.cart-main .cart-main-title .td-inner {
+	padding-left: 95px;
+
+}
+.cart-main a {
+	color: #000;
+}
+.cart-main a:hover {
+	color: #c69c6d;
+} 
+
+/*cart-goods-item*/
+.cart-goods-item {
+	line-height: 20px;
+	color: #000;
+	-padding: 10px 0;
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+}
+.cart-goods-item .td-inner .goods-img {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+.cart-goods-item .td-gname .goods-img img
+ {
+	width: 80px;
+	height: 80px;
+}
+.cart-goods-item .td-gname .goods-name {
+	margin-left: 91px;
+	padding: 30px 20px 30px 0;
+	text-align: center;
+} 
+.cart-goods-item .td-checkbox,
+.cart-goods-item .td-gstyle,
+.cart-goods-item .td-gamount,
+.cart-goods-item .td-gprice,
+.cart-goods-item .td-gmoney{
+	padding: 40px 0;
+} 
+.cart-goods-item .td-option{
+	padding: 20px 0;
+}
+.cart-goods-item .td-amount-wrapper {
+	width: 118px;
+	height: 20px;
+	position: relative;
+}
+.cart-goods-item .td-amount-wrapper .amount-option {
+	position: absolute;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+.cart-goods-item .td-amount-wrapper .amount-decrease {
+	left: 0;
+	cursor: pointer;
+	background-color: #c69c6d;
+}
+.cart-goods-item .td-amount-wrapper .amount-input{
+	color: #000;
+	width: 50px;
+	height: 18px;
+	line-height: 18px;
+	left: 20px;
+	border-color: #888;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.cart-goods-item .td-amount-wrapper .amount-increase {
+	left: 72px;
+	cursor: pointer;
+	background-color: #c69c6d;
+}
+.cart-goods-item .td-gmoney {
+	color: #000;
+	font-weight: 700;
+}
+.cart-goods-item .td-option a{
+	color: #00f;
+}
+.cart-goods-item .td-option a.last{
+	color: #f00;
+}
+.cart-goods-item .td-option a.last img{
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+}
+/*cart option*/
+.cart-option {
+	height: 35px;
+	line-height: 35px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.cart-option .options {
+	float: left;
+}
+.cart-option .options .options-item {
+	float: left;
+	margin:0 30px 0 10px;
+}
+.cart-option .cart-info {
+	float: right;
+}
+.cart-option .cart-info .cart-info-item {
+	font-size: 12px;
+	float:left;
+	margin-left: 20px;	
+}
+.cart-option .cart-info .cart-info-item span {
+	color: #d31920;
+	padding: 0 5px;
+}
+.cart-option .cart-info .cart-info-item span.last{
+	font-size: 18px;
+}
+.cart-option .cart-info .go-pay {
+	width: 136px;
+	text-align: center;
+	background-color: #aaa;
+	color: #fff;
+	font-size: 14px;
+	cursor: not-allowed;
+}
+.cart-option .cart-info .go-pay.can-pay {
+	cursor: pointer;
+	background-color: #d31920;
+}

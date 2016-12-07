@@ -1,0 +1,152 @@
+.margin{
+	width: 1210px;
+	margin: 0 auto;
+}
+#header{
+	width: 1000px;
+	height: 89px;
+	margin: 10px auto 0;
+	position: relative;
+}
+#header b{
+	margin-left: 10px;
+	font: 18px/82px "黑体";
+	color: #949292;
+}
+#header .head-tel{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 15px;
+	line-height: 27px;
+	color: #000;
+}
+
+
+#main{
+	height: 659px;
+	background: url(../img/zhuce-bg.jpg) no-repeat;
+}
+#main .reg-content{
+	width: 450px;
+	height: 592px;
+	margin: 47px 100px  0 0;
+	background: #fff;
+}
+.reg-box{
+	width: 330px;
+	height: 502px;
+	margin: 45px 60px;
+	position: relative;
+}
+.reg-box .reg-title{
+	position: absolute;
+	top: -31px;
+	left: 0;
+	height: 30px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.reg-box .reg-title span{
+	display: inline-block;
+	background-color: #000000;
+	border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px 20px;
+    color: #fff;
+}
+
+.reg-box form{
+	position: absolute;
+	top: 32px;
+	border-bottom: 1px solid #ccc;
+}
+.reg-box form ul .reg-con{
+	width: 330px;
+	height: 64px;
+}
+.reg-box form ul .reg-con label{
+	float: left;
+	line-height: 34px;
+	width: 72px;
+	text-align: right;
+	color: #000;
+}
+.reg-box form ul .reg-con .reg-item{
+	padding: 0 5px;
+	float: left;
+	outline: none;
+	width: 200px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.reg-box form ul .reg-con .get-mes{
+	position: absolute;
+	width: 70px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #ccc;
+	top: 3px;
+	right: -30px;
+	color: #000;
+	cursor: pointer;
+}
+.reg-box form ul .reg-con .error-info{
+	display: none;
+	float: left;
+	padding: 0 5px;
+	margin-top: 3px;
+    margin-left: 72px;
+    color: #333;
+    line-height: 22px;
+    vertical-align: middle;
+    width: 200px;
+    border: 1px solid #ff9ba5;
+    background: #fee0e3;
+}
+.reg-box form ul .reg-check{
+	width: 268px;
+	height: 24px;
+	margin: 0 0 20px 62px;
+	color: #000;
+}
+.reg-box form ul .reg-check a:hover{
+	color: #c69c6d;
+}
+
+.reg-box form ul .reg-sub input{
+	width: 210px;
+	height: 30px;
+	margin-left: 72px;
+	background-color: #cf0101;
+	text-align: center;
+	border: 0;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.reg-box form ul .reg-log{
+	margin-top: 10px;
+	padding: 20px 25px 20px 0;
+	text-align: right;
+	color: #000;
+}
+.reg-box form ul .reg-log a{
+	text-decoration: underline;
+	color: #c69c6d;
+}
+.reg-box p.reg-bottom{
+	width: 100%;
+	position: absolute;
+	bottom: 12px;
+	color: #000;
+	text-align: center;
+}
+.reg-box p.reg-bottom span{
+	color: #f00;
+}
