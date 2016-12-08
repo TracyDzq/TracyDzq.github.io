@@ -63,6 +63,7 @@
 	margin: 0 2px 12px 12px;	
 }
 .bags-box .bags-banner .bags-arr{
+	
 	width: 20px;
 	height: 20px;
 	position: absolute;
@@ -71,18 +72,20 @@
 	font-family: "宋体";
 	bottom: 12px;	 
 	cursor: pointer;
+	text-align: center;
 }
 .bags-box .bags-banner .bags-arrowL{
-	left: 75px;
+	left: 68px;
 }
 .bags-box .bags-banner .bags-arrowR{
-	right: 60px;
+	right: 65px;
 }
 .bags-box .bags-banner .bags-circle{
 	position: absolute;
-	bottom: 20px;
-	width: 100%;
-	height: 14px;
+	bottom: 14px;
+	left: 84px;
+	width: 53px;
+	height: 20px;
 	text-align:center;
 }
 .bags-box .bags-banner .bags-circleW {
@@ -110,6 +113,10 @@
 	width: 275px;
 	height: 180px;
 	border: 1px solid #ccc;
+}
+.bags-box .bags-show .bags-item:hover{
+	box-shadow: 0 0 20px #000;
+	border: 1px solid #000;
 }
 .bags-box .bags-show .bags-item.bags-left{
 	width: 390px;

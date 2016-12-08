@@ -1,6 +1,10 @@
 $(function(){
 	//加载foot
 	$('#footer').load('footer.html');
+	//加载右侧边栏	
+	$('#sidebar').load('right.html',function(){
+		$.getScript('js/right.js');
+	});
 	
 	var register = {
 		regItem:$('.reg-item'),

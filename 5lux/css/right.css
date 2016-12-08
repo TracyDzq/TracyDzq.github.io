@@ -1,0 +1,82 @@
+#rig-side {
+	z-index: 100;
+	position: fixed;
+	top: 170px;
+	right: 0;
+	width: 35px;
+}
+#rig-side .side-wrappB{
+	margin-top: 120px;
+}
+#rig-side .side-item {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	background-color: #333;
+	margin-bottom: 1px;
+	line-height: 35px;
+	color: #eee;
+	cursor: pointer;
+}
+#rig-side .side-item{
+	border-radius: 4px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	text-align: center;
+}
+#rig-side .side-item:hover{
+	background: #c69c6d;
+}
+#rig-side .side-item .item-sideicon {
+	z-index: 100;
+	width: 19px;
+	height: 19px;
+	background: url(../img/share03.png);	
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	display: inline-block;
+}
+#rig-side .side-item .item-sideicon.to-top{
+	background: url(../img/share02.png);
+	background-position:-445px -162px;
+}
+#rig-side .side-item:hover .item-sideicon{
+	background-position-y: -28px;
+}
+#rig-side .side-item:hover .item-sideicon.to-top{
+	background-position: -444px -133px;
+}
+#rig-side .side-item .des-trigle{
+	display: none;
+}
+#rig-side .side-item:hover .des-trigle{
+	display: block;
+}
+#rig-side .side-item .item-des{
+	z-index: 100;
+	position: absolute;
+	right: 35px;
+	top: 0;
+	width: 100px;
+	height: 33px;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-right: 0;
+	background-color: #fff;
+}
+#rig-side .side-item .item-des.weixin {
+	right: 58px;
+}
+#rig-side .side-item .item-trigle {
+	position: absolute;
+	top: 9px;
+	width: 0;
+	height: 0;
+	border: 8px solid #fff;
+	border-bottom: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid transparent;
+}
+

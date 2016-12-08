@@ -3,7 +3,17 @@ $(function(){
 	$('#header').load('header.html',function(){
 		$.getScript('js/header.js');
 	});
-
+	
+	//加载右侧边栏	
+	$('#sidebar').load('right.html',function(){
+		$.getScript('js/right.js');
+	});
+	
+	//底部固定栏设置
+	$('#bot-side .bot-side a').click(function(){
+		$('#bot-side').hide();
+	});
+	
 	//banner的实现
 	var banner = {
 		main:$('#banner'),

@@ -5,6 +5,10 @@ $(function(){
 	//加载header内容
 	$('#header').load('header.html',function(){
 		$.getScript('js/header.js');
+	});	
+	//加载右侧边栏	
+	$('#sidebar').load('right.html',function(){
+		$.getScript('js/right.js');
 	});
 	//加载foot
 	$('#footer').load('footer.html');

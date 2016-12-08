@@ -46,6 +46,14 @@
 	width: 30px;
 	height: 30px;
 }
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: #c33;
+}
+
+
 #info-top{
 	width: 100%;
 	height: 30px;
@@ -224,6 +232,7 @@
 }
 #info-mid .package{
 	margin-top: 35px;
+	cursor: pointer;
 }
 #info-mid .package dl{
 	position: relative;

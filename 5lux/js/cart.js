@@ -3,6 +3,10 @@ $(function(){
 	$('#header').load('header.html',function(){
 		$.getScript('js/header.js');
 	});
+	//加载右侧边栏	
+	$('#sidebar').load('right.html',function(){
+		$.getScript('js/right.js');
+	});
 	//加载foot
 	$('#footer').load('footer.html');
 	
@@ -250,13 +254,13 @@ $(function(){
 		},
 		//读取cookie
 		readCookie: function(){
-			this.cart = $.cookie('tb_cart') || '{}';
+			this.cart = $.cookie('lux_cart') || '{}';
 			//解析
 			this.cart = JSON.parse( this.cart );
 		},
 		//设置cookie
 		setCookie: function(){
-			$.cookie('tb_cart',JSON.stringify(this.cart),{expires:365,path:'/'});
+			$.cookie('lux_cart',JSON.stringify(this.cart),{expires:365,path:'/'});
 		}
 	};
 	Cart.init();
