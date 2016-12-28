@@ -1,0 +1,183 @@
+body,
+html,
+#main{
+	width: 100%;
+	height: 100%;
+}
+.music{
+	z-index: 10;
+	position: fixed;
+	height: 30px;
+	right: 20px;
+	top: 20px;
+}
+.music img{
+	height: 100%;
+}
+.swiper-slide{
+	position: relative;
+}
+.img{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.img img{
+	height: 100%;
+}
+@keyframes arr{
+	0% {
+		top: 94%;
+	}
+	100% {
+		top: 96%;
+	}
+}
+#bot .img.arrow{
+	top: 94%;
+	height: 15px;
+	animation: arr 0.6s linear infinite alternate;
+}
+#one{	
+	background: url('../img/t1-bg.png');
+	background-size: cover;	
+}
+#one .img1{
+	z-index: 5;
+	height: 200px;
+	top: 200px;
+}
+#one .img2{
+	height: 300px;
+	top: 158px;
+} 
+#two{	
+	background: url('../img/t2-bg.png');
+	background-size: cover;	
+}
+#two .img1{
+	height: 240px;
+	top: 50px;
+}
+#two .img2{
+	height: 136px;
+	bottom: 100px;
+} 
+#three{	
+	background: url('../img/t3-bg.png');
+	background-size: cover;	
+}
+#three .img1{
+	height: 155px;
+	top: 50px;
+}
+#three .img2{
+	height: 240px;
+	bottom: 100px;
+} 
+#four{	
+	background-color: #F94848;
+}
+#four .img1{
+	height: 100px;
+	top: 90px;
+}
+#four .img2{
+	height: 70px;
+	top: 270px;
+}
+#four .img3{
+	height: 110px;
+	top: 470px;
+} 
+#five{	
+	background-color: #EC5F55;
+}
+#five .img1,
+#seven .img1{
+	height: 340px;
+}
+#five .img2,
+#seven .img2{
+	height: 260px;
+	top: 84px;
+}
+#five .img3,
+#seven .img3{
+	height: 100px;
+	bottom: 96px;
+} 
+#six{	
+	background-color: #7876B7;
+}
+#six .img1,
+#eight .img1{
+	height: 260px;
+	top: 55px;
+}
+#six .img2,
+#eight .img2{
+	height: 250px;
+	top: 60px;
+}
+#six .img3{
+	height: 100px;
+	bottom: 96px;
+}  
+#seven{	
+	background-color: #147C79;
+}
+#eight{	
+	background-color: #619B51;
+}
+#eight .img3{
+	height: 80px;
+	bottom: 96px;
+}  
+#nine{	
+	background-color: #5FBDD9;
+}
+#nine .img1{
+	height: 460px;
+	top: 0;
+}
+#nine .img2{
+	height: 160px;
+	bottom: 0;
+}
+#ten{	
+	background: url('../img/t10-bg.png');
+	background-size: cover;	
+}
+#ten .img1{
+	height: 230px;
+	top: 40px;
+}
+#ten .img2{
+	height: 36px;
+	bottom: 120px;
+} 
+#ten .img3{
+	height: 18px;
+	bottom: 70px;
+} 
+#ten .img4{
+	height: 23px;
+	bottom: 30px;
+} 
+#ten .text{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 290px;
+	color: #FF811A;
+}
+#ten .text .title{
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: 700;
+}
+#ten .text .con{
+	line-height: 22px;
+	font-size: 18px;
+}

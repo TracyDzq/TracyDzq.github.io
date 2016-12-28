@@ -1,0 +1,100 @@
+body,
+html,
+#main,
+.box{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	position: relative;
+}
+.img{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.img img{
+	height: 100%;
+}
+@keyframes arr{
+	0% {
+		top: 94%;
+	}
+	100% {
+		top: 96%;
+	}
+}
+#bot .img.arrow{
+	top: 94%;
+	height: 15px;
+	animation: arr 0.8s linear infinite alternate;
+}
+.swiper-pagination.swiper-pagination-bullets {
+    bottom: 75px;
+}
+.swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fff;
+}
+#one{	
+	background: #083846;
+}
+#one .img1{
+	height: 300px;
+	top: 15px;
+}
+#one .img2{
+	height: 130px;
+	top: 400px;
+} 
+#two{	
+	background: #9261BF;
+}
+#two .img1{
+	height: 110px;
+	top: 15px;
+}
+#two .img2{
+	height: 230px;
+	top: 180px;
+} 
+#two .img3{
+	height: 200px;
+	top: 225px;
+}
+#two .img4{
+	height: 18px;
+	top: 540px;
+} 
+#two .img5{
+	height: 370px;
+	top: 28px;
+}
+#two .img6{
+	height: 45px;
+	top: 500px;
+}  
+#two .img7{
+	z-index: 3;
+	height: 360px;
+	top: 30px;
+} 
+#two .img8{
+	height: 25px;
+	top: 490px;
+} 
+#three{	
+	background: #083846;
+}
+#three .img1{
+	height: 240px;
+	top: 120px;
+}
+#three .img2{
+	height: 44px;
+	top: 440px;
+} 
